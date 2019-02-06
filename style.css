@@ -29,6 +29,7 @@ h4 {
   color: #74647B;
 }
 
+
 p {
   font-family: 'Raleway', sans-serif;
   font-size:10px;
@@ -36,20 +37,24 @@ p {
 }
 
 div {
-  width:300px;
+  width:600px;
   margin: 20px auto;
 
 }
 
 
 footer{
-  width:300px;
+  width:600px;
   margin: auto;
-  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  /*box-shadow: 0px 10px 30px rgba(0,0,0,0.1);*/
+}
+
+#footer-width{
+  width:600px;
+  margin: 20px auto;
 }
 
 .img-circle   {
-
   border-radius: 50%
 
 
@@ -72,24 +77,20 @@ footer{
 
 }
 
-.btn-blue {
+.btn-grey{
   background-color: rgb(181, 181, 181);
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 4px;
   border-radius: 4px;
   padding: 8px 20px;
 }
 
-.btn-blue:hover {
+.btn-grey:hover {
 background-color: #65c6c4;
 color: white;
 height:50px;
 width:50px;
 }
 
-
-.middle-div {
-  height:140px;
-}
 
 .list-inline  li {
  display: inline-block;
