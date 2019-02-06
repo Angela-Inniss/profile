@@ -32,8 +32,9 @@ h4 {
 
 p {
   font-family: 'Raleway', sans-serif;
-  font-size:10px;
+  font-size:12px;
   text-decoration: none;
+  padding: 30px;
 }
 
 div {
@@ -77,11 +78,13 @@ footer{
 
 }
 
+
 .btn-grey{
-  background-color: rgb(181, 181, 181);
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 4px;
   border-radius: 4px;
   padding: 8px 20px;
+  background-color: #74647B;
+  color: navajowhite;
 }
 
 .btn-grey:hover {
@@ -90,6 +93,9 @@ color: white;
 height:50px;
 width:50px;
 }
+
+
+/*footer*/
 
 
 .list-inline  li {
@@ -112,4 +118,16 @@ ul {
 padding-left: 0px;
 }
 
+/*social media buttons*/
 
+.fab fa-facebook-square {
+  color:#74647B;
+}
+
+.fab fa-instagram  {
+  color:#74647B;
+}
+
+.fab fa-twitter-square {
+  color:#74647B;
+}
