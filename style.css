@@ -6,6 +6,7 @@ body {
   line-height: 1.6;
 }
 
+
 h1 {
   font-family: 'Raleway', sans-serif;
   color: #74647B;
@@ -59,7 +60,7 @@ footer{
 }
 
 .container {
-  width: 500px;   /* This sets the width */
+  width: 100%;   /* This sets the width */
   margin: 0 auto; /* This automatically sets left/right margins */
 }
 
