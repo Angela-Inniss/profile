@@ -1,3 +1,38 @@
+
+/*responsivness*/
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+/*nav*/
+.navigation {
+  text-align: right;
+}
+
+.navbar-inverse {
+  color:white;
+  text-align: right;
+}
+
+/*page body and stuff*/
+
+
 body {
 
   background-color: #F8F8F8;
@@ -39,6 +74,7 @@ p {
 
 div {
   width:600px;
+  height: 400px;
   margin: 20px auto;
 
 }
@@ -88,7 +124,7 @@ footer{
 }
 
 .btn-grey:hover {
-background-color: #65c6c4;
+background-color: #d4f4f3;
 color: white;
 height:50px;
 width:50px;
@@ -122,12 +158,15 @@ padding-left: 0px;
 
 .fab fa-facebook-square {
   color:#74647B;
+  font-size: 30px;
 }
 
 .fab fa-instagram  {
   color:#74647B;
+  font-size: 30px;
 }
 
 .fab fa-twitter-square {
   color:#74647B;
+  font-size: 30px;
 }
