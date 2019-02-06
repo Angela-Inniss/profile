@@ -72,10 +72,10 @@ footer{
 }
 
 .btn-blue {
- background-color: #070d59;
- color: white;
- padding: 15px 20px;
- border-radius: 4px;
+  background-color: rgb(181, 181, 181);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 4px;
+  border-radius: 4px;
+  padding: 8px 20px;
 }
 
 .btn-blue:hover {
