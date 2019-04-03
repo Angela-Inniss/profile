@@ -1,113 +1,26 @@
-body {
+/* .navbar-lewagon {
+  justify-content: flex-end;
 
-  background-color: #F8F8F8;
-  color: ##D8BFD8;
-  font-size: 15px;
-  line-height: 1.6;
+  background: white;
 }
 
-h1 {
-  font-family: 'Raleway', sans-serif;
-  color: #74647B;
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
 }
 
-img {
-
-  width: 100px;
-  height:100px;
-
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
 }
 
-h3 {
-  font-family: 'Raleway', sans-serif;
-  color: #74647B;
+.nav-item {
+  margin:20px;
+  list-style: none;
 }
 
-h4 {
-  font-family: 'Raleway', sans-serif;
-  color: #74647B;
-}
+.navbar-nav {
+  float:right;
+} */
 
-p {
-  font-family: 'Raleway', sans-serif;
-  font-size:10px;
-  text-decoration: none;
-}
-
-div {
-  width:300px;
-  margin: 20px auto;
-
-}
-
-
-footer{
-  width:300px;
-  margin: auto;
-  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
-}
-
-.img-circle   {
-
-  border-radius: 50%
-
-
-}
-.text-center {
-  text-align: center;
-
-}
-
-.container {
-  width: 500px;   /* This sets the width */
-  margin: 0 auto; /* This automatically sets left/right margins */
-}
-
-
-.card {
-  text-align: center;
-  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
-
-}
-
-.btn-blue {
- background-color: #070d59;
- color: white;
- padding: 15px 20px;
- border-radius: 4px;
-}
-
-.btn-blue:hover {
-background-color: #65c6c4;
-color: white;
-height:50px;
-width:50px;
-}
-
-
-.middle-div {
-  height:140px;
-}
-
-.list-inline  li {
- display: inline-block;
- padding: 0px 10px;
-}
-
-.list-inline > li > a {
-font-size: 20px;
-padding-left: 0px;
-
-}
-
-.list-inline {
-list-style: none;
-padding-left: 0px;
-}
-
-ul {
-padding-left: 0px;
-}
 
 
 .navbar-lewagon {
@@ -121,4 +34,177 @@ padding-left: 0px;
 
 .navbar-lewagon .navbar-brand img {
   width: 40px;
+}
+
+/* page banner */
+
+.banner {
+  height:50vh;
+  width:100vw;
+  background-color:#ceafbd;
+  position:relative;
+
+}
+
+/* avatar banner */
+.avatar-bordered {
+  display: block;
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  border: white 1px solid;
+  height:200px;
+  margin: 0 auto 5px auto;
+  position:absolute;
+  bottom:157px;
+  left: calc(50% - 100px);
+}
+
+h1 {
+
+ }
+
+.text-box {
+  text-align:center;
+  padding-top: 120px;
+  font-size:30px;
+}
+
+
+.social {
+  display:flex;
+  justify-content: center;
+  padding-top:20px;
+}
+
+.social i {
+  margin:10px;
+  font-size:20px;
+}
+
+.flex-box {
+  justify-content: space-evenly;
+  display: flex;
+  height: 100px;
+  padding-top: 20px;
+  font-weight:bold;
+}
+
+.text-box-about {
+  font-size:10px;
+  margin:10px 50px;
+  text-align:center;
+  padding-bottom: 60px;
+}
+
+.button {
+  height:20px;
+  background-color: #db9eb0 !important;
+}
+
+.btn-block {
+  background-color: #db9eb0;
+}
+.btn-primary {
+  border:none;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("https://images.unsplash.com/photo-1463136536204-685cfa574ab1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+
+  /* Set a specific height */
+  min-height:500px;
+  position:relative;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax img {
+width:100px;
+height:50px;
+text-align:center;
+}
+
+@media only screen and (min-width: 1200px) {
+.avatar-bordered {
+  display: block;
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  border: white 1px solid;
+  height:200px;
+  margin: 0 auto 5px auto;
+  position:absolute;
+  bottom:-22px;
+  left: calc(50% - 100px);
+  }
+}
+
+
+/*tablet view */
+@media only screen and (min-width: 992px) {
+.avatar-bordered  {
+   display: block;
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  border: white 1px solid;
+  height:200px;
+  margin: 0 auto 5px auto;
+  position:absolute;
+  bottom:157px;
+  left: calc(50% - 100px);
+  }
+}
+
+/* ?? view */
+@media only screen and (min-width: 768px) {
+.avatar-bordered  {
+  display: block;
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  border: white 1px solid;
+  height:200px;
+  margin: 0 auto 5px auto;
+  position:absolute;
+  bottom:130px;
+  left: calc(50% - 100px);
+  }
+}
+
+/*mobile card view*/
+@media only screen and (min-width: 576px) {
+.avatar-bordered {
+  display: block;
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  border: white 1px solid;
+  height:200px;
+  margin: 0 auto 5px auto;
+  position:absolute;
+  bottom:100px;
+  left: calc(50% - 100px);
+  }
+}
+
+@media only screen and (min-width: 100px) {
+.avatar-bordered {
+  display: block;
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  border: white 1px solid;
+  height:200px;
+  margin: 0 auto 5px auto;
+  position:absolute;
+  bottom:-12px;
+  left: calc(50% - 100px);
+  }
 }
