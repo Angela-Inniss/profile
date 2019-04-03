@@ -20,11 +20,10 @@
   width:100vw;
   background-color:#ceafbd;
   position:relative;
+}
 
-}
-.button {
-  height: 50px;
-}
+
+
 
 /* avatar banner */
 .avatar-bordered {
@@ -78,8 +77,14 @@ h1 {
 }
 
 .button {
-  height:20px;
   background-color: #db9eb0 !important;
+  height: 50px;
+  text-align:center;
+  padding-top: 15px;
+}
+
+a {
+  color:white;
 }
 
 .btn-block {
