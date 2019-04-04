@@ -1,17 +1,4 @@
 
-/*
-.navbar-lewagon {
-  justify-content: space-between;
-  background: white;
-}
-
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
-}
-
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
-} */
 
 /* page banner */
 
@@ -23,8 +10,6 @@
   background-image: url(https://images.unsplash.com/photo-1485001564903-56e6a54d46ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
   background-size:cover;
 }
-
-
 
 
 /* avatar banner */
@@ -41,9 +26,6 @@
   left: calc(50% - 100px);
 }
 
-h1 {
-
- }
 
 .text-box2 {
   text-align:center;
@@ -63,6 +45,7 @@ h1 {
   font-size:20px;
 }
 
+
 .flex-box {
   justify-content: space-evenly;
   display: flex;
@@ -77,6 +60,7 @@ h1 {
   text-align:center;
   padding-bottom: 60px;
 }
+
 
 .button {
   background-color: #db9eb0 !important;
@@ -96,6 +80,7 @@ a {
 .btn-primary {
   border:none;
 }
+
 
 .parallax {
   /* The image used */
@@ -118,6 +103,7 @@ height:50px;
 text-align:center;
 }
 
+
 /*If the browser window is 600px or smaller, the background color will be lightblue:*/
 
 
@@ -125,7 +111,6 @@ text-align:center;
   .pos-f-t {
     display:none;
   }
-}
 
 @media only screen and (max-width: 576px) {
   .banner {
@@ -133,12 +118,12 @@ text-align:center;
   }
 }
 
-
 @media only screen and (max-width: 576px) {
  .avatar {
     display:none;
   }
 }
+
 
 @media only screen and (max-width: 576px) {
  .text-box2 {
@@ -151,15 +136,13 @@ text-align:center;
 .text-box3 {
  display:none;
  }
-}
+
 
 @media only screen and (max-width: 576px) {
  .text-box1 {
   padding:10px;
   font-size:15px;
 
-  }
-}
 
 @media only screen and (max-width: 576px) {
  .text-box5 {
@@ -209,6 +192,5 @@ text-align:center;
 @media (min-width:576px) and (max-width: 2000px) {
  .text-box5 {
  display:none;
-  }
 }
 
