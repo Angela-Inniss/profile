@@ -1,174 +1,196 @@
 
-/*responsivness*/
 
-@media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
-  .container {
-    width: 700px;
-  }
-}
-@media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
-  .container {
-    width: 500px;
-  }
-}
-@media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
-  .container {
-    width: 300px;
-  }
+/* page banner */
+
+.banner {
+  height:50vh;
+  width:100vw;
+ /*  background-color:#ceafbd; */
+  position:relative;
+  background-image: url(https://images.unsplash.com/photo-1485001564903-56e6a54d46ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+  background-size:cover;
 }
 
-/*nav*/
-.navigation {
-  text-align: right;
+
+/* avatar banner */
+.avatar-bordered {
+  display: block;
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  border: white 1px solid;
+  height:200px;
+  margin: 0 auto 5px auto;
+  position:absolute;
+  bottom:157px;
+  left: calc(50% - 100px);
 }
 
-.navbar-inverse {
+
+.text-box2 {
+  text-align:center;
+  padding-top: 120px;
+  font-size:30px;
+}
+
+
+.social {
+  display:flex;
+  justify-content: center;
+  padding-top:20px;
+}
+
+.social i {
+  margin:10px;
+  font-size:20px;
+}
+
+
+.flex-box {
+  justify-content: space-evenly;
+  display: flex;
+  height: 100px;
+  padding-top: 20px;
+  font-weight:bold;
+}
+
+.text-box-about {
+  font-size:10px;
+  margin:10px 50px;
+  text-align:center;
+  padding-bottom: 60px;
+}
+
+
+.button {
+  background-color: #db9eb0 !important;
+  height: 50px;
+  text-align:center;
+  padding-top: 15px;
+  border-bottom:3px;
+}
+
+a {
   color:white;
-  text-align: right;
 }
 
-/*page body and stuff*/
-
-
-body {
-
-  background-color: #F8F8F8;
-  color: ##D8BFD8;
-  font-size: 15px;
-  line-height: 1.6;
+.btn-block {
+  background-color: #db9eb0;
+}
+.btn-primary {
+  border:none;
 }
 
 
-h1 {
-  font-family: 'Raleway', sans-serif;
-  color: #74647B;
+.parallax {
+  /* The image used */
+  background-image: url("https://images.unsplash.com/photo-1463136536204-685cfa574ab1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+
+  /* Set a specific height */
+  min-height:500px;
+  position:relative;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-img {
-
-  width: 100px;
-  height:100px;
-
-}
-
-h3 {
-  font-family: 'Raleway', sans-serif;
-  color: #74647B;
-}
-
-h4 {
-  font-family: 'Raleway', sans-serif;
-  color: #74647B;
-}
-
-
-p {
-  font-family: 'Raleway', sans-serif;
-  font-size:12px;
-  text-decoration: none;
-  padding: 30px;
-}
-
-div {
-  width:600px;
-  height: 400px;
-  margin: 20px auto;
-
-}
-
-
-footer{
-  width:600px;
-  margin: auto;
-  /*box-shadow: 0px 10px 30px rgba(0,0,0,0.1);*/
-}
-
-#footer-width{
-  width:600px;
-  margin: 20px auto;
-}
-
-.img-circle   {
-  border-radius: 50%
-
-
-}
-.text-center {
-  text-align: center;
-
-}
-
-.container {
-  width: 100%;   /* This sets the width */
-  margin: 0 auto; /* This automatically sets left/right margins */
-}
-
-
-.card {
-  text-align: center;
-  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
-  padding: 20px 10px;
-
-}
-
-
-.btn-grey{
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 4px;
-  border-radius: 4px;
-  padding: 8px 20px;
-  background-color: #74647B;
-  color: navajowhite;
-  height:50px;
-  width:50px;
-}
-/*
-.btn-grey:hover {
-background-color: #d4f4f3;
-color: white;
+.parallax img {
+width:100px;
 height:50px;
-width:50px;
+text-align:center;
 }
 
 
-/*footer*/
+/*If the browser window is 600px or smaller, the background color will be lightblue:*/
 
 
-.list-inline  li {
- display: inline-block;
- padding: 0px 10px;
+@media only screen and (max-width: 576px) {
+  .pos-f-t {
+    display:none;
+  }
+
+@media only screen and (max-width: 576px) {
+  .banner {
+    display:none;
+  }
 }
 
-.list-inline > li > a {
-font-size: 20px;
-padding-left: 0px;
-
+@media only screen and (max-width: 576px) {
+ .avatar {
+    display:none;
+  }
 }
 
-.list-inline {
-list-style: none;
-padding-left: 0px;
+
+@media only screen and (max-width: 576px) {
+ .text-box2 {
+  display:none;
+
+  }
 }
 
-ul {
-padding-left: 0px;
+@media only screen and (max-width: 576px) {
+.text-box3 {
+ display:none;
+ }
+
+
+@media only screen and (max-width: 576px) {
+ .text-box1 {
+  padding:10px;
+  font-size:15px;
+
+
+@media only screen and (max-width: 576px) {
+ .text-box5 {
+  padding:10px;
+  font-size:15px;
+  text-align:center;
+  }
 }
 
-/*social media buttons*/
-
-.fab fa-facebook-square {
-  color:#74647B;
-  font-size: 30px;
+.mobile{
+  text-align:center;
 }
 
-.fab fa-instagram  {
-  color:#74647B;
-  font-size: 30px;
+@media only screen (max-width: 576px) {
+ .text-box2 {
+   padding-top:10px;
+
+  }
 }
 
-.fab fa-twitter-square {
-  color:#74647B;
-  font-size: 30px;
+  @media only screen (max-width: 576px) {
+ .movile-nav  {
+  height:42px;
+  }
+ }
+
+
+@media (min-width:576px) and (max-width: 2000px) {
+ .mobile {
+   display:none;
+  }
 }
+
+
+@media (min-width:576px) and (max-width: 2000px) {
+ .text-box1{
+   display:none;
+  }
+}
+
+  @media only screen (max-width: 2000px) {
+ .movile-nav img {
+  display:none;
+  }
+ }
+
+@media (min-width:576px) and (max-width: 2000px) {
+ .text-box5 {
+ display:none;
+}
+
