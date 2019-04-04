@@ -1,5 +1,7 @@
 
 
+
+
 /* page banner */
 
 .banner {
@@ -103,6 +105,99 @@ height:50px;
 text-align:center;
 }
 
+/*If the browser window is 600px or smaller, the background color will be lightblue:*/
+
+
+@media only screen and (max-width: 576px) {
+  .pos-f-t {
+    display:none;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .banner {
+    display:none;
+  }
+}
+
+
+@media only screen and (max-width: 576px) {
+ .avatar {
+    display:none;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+ .text-box2 {
+  display:none;
+
+  }
+}
+
+@media only screen and (max-width: 576px) {
+.text-box3 {
+ display:none;
+ }
+}
+
+@media only screen and (max-width: 576px) {
+ .text-box1 {
+  padding:10px;
+  font-size:15px;
+
+  }
+}
+
+@media only screen and (max-width: 576px) {
+ .text-box5 {
+  padding:10px;
+  font-size:15px;
+  text-align:center;
+  }
+}
+
+.mobile{
+  text-align:center;
+}
+
+@media only screen (max-width: 576px) {
+ .text-box2 {
+   padding-top:10px;
+
+  }
+}
+
+  @media only screen (max-width: 576px) {
+ .movile-nav  {
+  height:42px;
+  }
+ }
+
+
+@media (min-width:576px) and (max-width: 2000px) {
+ .mobile {
+   display:none;
+  }
+}
+
+
+@media (min-width:576px) and (max-width: 2000px) {
+ .text-box1{
+   display:none;
+  }
+}
+
+  @media only screen (max-width: 2000px) {
+ .movile-nav img {
+  display:none;
+  }
+ }
+
+@media (min-width:576px) and (max-width: 2000px) {
+ .text-box5 {
+ display:none;
+  }
+}
 
 /*If the browser window is 600px or smaller, the background color will be lightblue:*/
 
